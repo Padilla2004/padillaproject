@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .section {
+            width: 100%;
+            height: 100vh;
+        }
+        .header {
+            width: 100%;
+            position: fixed;
+            justify-content: space-between;
+            height: 10vh;
+            background-color: rgb(39, 39, 39);
+        }
+        .header h1 {
+            margin-top: .5vw;
+            font-size: 3vw;
+            margin-left: 2vw;
+            color: #fefefe;
+        }
+        .header span {
+            color: rgb(254, 67, 5);
+        }
+        .header ul {
+            display: flex;
+            float: right;
+            gap: 150px;
+        }
+        ul li {
+            list-style: none;
+            margin-top: -2vw;
+        }
+        ul li a {
+            text-decoration: none;
+            color: rgb(254, 253, 253);
+            font-size: 1.5vw;
+            margin-right: 1vw;
+        }
+        #home {
+            width: 100%;
+            height: 100vh;
+        }
+        .left, .right {
+            width: 50%;
+            height: 100vh;
+            float: left;
+        }
+        .right img{
+            width: 60%;
+            height: 75vh;
+            border-radius: 50%;
+            margin-top: 8vw;
+            margin-left: 13vw;
+        }
+        .left h5 {
+            margin-top: 16vw;
+            margin-left: 3vw;
+            font-size: 2vw;
+            font-weight: 100;
+        }
+        .left h1 {
+            margin-left: 3vw;
+            font-size: 3.7vw;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .left span {
+            color: rgb(254, 66, 3);
+        }
+        .about {
+            margin-left: 3vw;
+            width: 20%;
+            margin-top: 1vw;
+            height: 6vh;
+            background: #010101;
+            border: none;
+            border-radius: 3px;
+        }
+        .about a {
+            text-decoration: none;
+            font-size: 1.2vw;
+            color: #fefefe;
+        }
+        .project {
+            width: 20%;
+            margin-left: 1vw;
+            height: 6vh;
+            margin-top: 1vw;
+            background-color: rgb(254, 66, 3);
+            border: none;
+            border-radius: 3px;
+        }
+        .project a {
+            color: #fefefe;
+            text-decoration: none;
+            font-size: 1.2vw;
+        }
+        #about {
+            width: 100%;
+            height: 100vh;
+        }
+        #about img {
+            width: 60%;
+            height: 75vh;
+            border-radius: 50%;
+            margin-top: 8vw;
+            margin-left: 8vw;
+        }
+        .about-l, .about-r {
+            float: left;
+            width: 50%;
+        }
+        .about-r h1 {
+            margin-top: 8vw;
+            font-size: 4vw;
+        }
+        .about-r p {
+            font-size: 2.2vw;
+        }
+        #project {
+            width: 100%;
+            height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding-top: 4vw;
+        }
+        .projects {
+            width: 90%;
+            background-color: rgb(230, 79, 29);
+            height: 25vh;
+            margin-bottom: 2vw;
+            margin-left: 1.5vw;
+            border-radius: 3px;
+        }
+        #project h2 {
+            text-align: center;
+            padding-top: 8vw;
+            font-size: 4vw;
+        }
+        .projects h1 {
+            text-align: center;
+            color: #fefefe;
+            margin-top: 4vw;
+            font-size: 2vw;
+        }
+        button {
+            margin-left: 10vw;
+            width: 30%;
+            height: 5vh;
+            margin-top: 2.8vw;
+            border: none;
+        }
+        button a {
+            text-decoration: none;
+            color: #010101;
+            font-size: 1vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="header">
+            <h1><span>Padilla</span> Portfolio</h1>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#project">Project</a>
+                </li>
+            </ul>
+        </div>
+        <div id="home">
+            <div class="left">
+                <h5>Hi</h5>
+                <h1>I'm <span>John Evan</span> <br>a 2nd year college student</h1>
+                <button class="about"><a href="#about">About me</a></button>
+                <button class="project"><a href="#project">Activity</a></button>
+            </div>
+            <div class="right">
+                <img src="att.fMLPGlkFoQGbisQxiSruzf_E_lgaXQQR-t0TljUS6v0.jpg" alt="">
+            </div>
+        </div>
+        <div id="about">
+            <div class="about-l">
+                <img src="att.fMLPGlkFoQGbisQxiSruzf_E_lgaXQQR-t0TljUS6v0.jpg" alt="">
+            </div>
+            <div class="about-r">
+                <h1>About me:</h1>
+                <p>Hello, I am John Evan Padilla, 20 years of age. I live at Cabatuan, Iloilo. Currently I am a 2nd Year college student in Wesst Visayas State University-Lambunao Campus. My hobby was to play volleyball and Mobile Legends. My dream someday was to become a Business owner. My favorite food is adobong atay ng manok. And my motto is "Do my best so that I can't blame myself ". </p>
+            </div>
+        </div>
+        <div id="project">
+            <h2>My Activity</h2>
+            <div class="container">
+                <div class="projects">
+                    <h1>Activity 1: Home Page</h1>
+                    <button><a href="https://gevanapp.netlify.app/" target="_blank">View Activity</a></button>
+                </div>
+                <div class="projects">
+                    <h1>Activity 2: Responsive Webpage</h1>
+                    <button><a href="https://responsivegevancompany.netlify.app/" target="_blank">View Activity</a></button>
+                </div>
+                <div class="projects">
+                    <h1>Activity 3: Individual Webpage</h1>
+                    <button><a href="https://remarkable-jalebi-2f5322.netlify.app/" target="_blank">View Activity</a></button>
+                </div>
+                <div class="projects">
+                    <h1>Activity 4: Calculator UI Design</h1>
+                    <button><a href="#project">No Activity</a></button>
+                </div>
+                <div class="projects">
+                    <h1>Activity 5: Functional Calculator</h1>
+                    <button><a href="https://padillacalculator.netlify.app/" target="_blank">View Activity</a></button>
+                </div>
+                <div class="projects">
+                    <h1>Activity 6: Sign Up and Log in</h1>
+                    <button><a href="https://signuppadilla.netlify.app/" target="_blank">View Activity</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
